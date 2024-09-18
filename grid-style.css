@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+section{
+    padding: 1rem;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+h1{
+    color: aliceblue;
+}
